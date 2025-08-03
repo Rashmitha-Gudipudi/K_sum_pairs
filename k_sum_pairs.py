@@ -11,7 +11,8 @@ for i in range(len(list_a)-1):#0,1,2,3
         sort_e=tuple(sorted(pair))
         set_1.add(sort_e)
     
-u_l=list(set_1)
-u_l.sort()
-for j in u_l:
+up_l=list(set_1)
+up_l.sort()
+for j in up_l:
+
     print(j)
